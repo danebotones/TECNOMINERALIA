@@ -1,0 +1,534 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   
+    width: 100vw;
+    height: 100vh;
+    background: #000;  
+   
+    background-image: url(../materiales/renders_3d/arqueologia_esspeculativa_renders.gif);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@font-face {
+    font-family: chida;
+    src: url('../materiales/TIPOS/OLDENGL.TTF') format('truetype');
+}
+
+@font-face {
+    font-family: chida2;
+    src: url('../materiales/TIPOS/Decay-Trial-White-Alt.otf') format('truetype');
+}
+
+@font-face {
+    font-family: chida3;
+    src: url('../materiales/TIPOS/Oldenorth-trial.otf') format('truetype');
+}
+
+@font-face {
+    font-family: chida4;
+    src: url('../materiales/TIPOS/tenebras trial.otf') format('truetype');
+}
+
+@font-face {
+    font-family: chida5;
+    src: url('../materiales/TIPOS/Durance-Rock.otf') format('truetype');
+}
+
+
+.contenedor_titulo{
+    width: 100vw;  
+    color: rgb(250, 234, 234);
+    text-align: center;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    
+}
+
+.contenedor_titulo h1{
+    font-family: chida;
+    font-size: 1em;
+
+}
+
+.contenedor_titulo a{
+    font-family: chida;
+    font-size: 26px;
+    color:#F7F1EB;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.contenedor_texto{
+    width: 100vw;
+   /* height: 100vh;*/
+    color: rgb(250, 234, 234);
+   text-align: center;
+   padding: 2vw;
+
+}
+
+.contenedor_texto p{
+    font-family: chida;
+    font-size: 3em;
+}
+
+.contenedor_punchline{
+
+    width: 100vw;  
+    color: rgb(250, 234, 234);
+    text-align: center;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+    overflow: hidden;
+    display: block;
+    
+    
+}
+.contenedor_punchline h1{
+    font-family: chida;
+    font-size: 1.3em;
+
+}
+
+.link_modelado{
+    width: 100vw;  
+  color: #F7F1EB;
+    text-align: center;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+
+}
+
+button{
+     background: none;
+     color: aliceblue;
+     border: none;
+     outline: none;
+     position: relative;
+     width: 100vw;
+     height: 7vw;
+}
+
+
+.section_1 {
+    width: 100vw;
+    height: 100%;
+    position: relative;
+   
+}
+
+.section_1 button{
+    color: white;
+    transition: 5s;
+  
+   
+}
+.section_1 h1{
+    font-family: chida;
+    font-size: 1.3em;
+}
+
+
+svg {
+    
+    height: 0;
+}
+
+.section_1 button::before {
+
+    content: 'Sin Minerales No Hay Tecnología';
+    position: absolute;
+    
+    transition: .07s;
+  /*background: orange;*/
+    transform: translateY(0) scale(1,0);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top:0% ;
+    opacity: 0;
+    font-family: chida;
+    font-size: 1.3em;
+    filter: blur(.3px) url("#smudged");
+
+    
+}
+
+.section_1 button:hover::before{
+    opacity: .8;
+    transform: translateY(0) scale(1,2);
+    transition: .07s ease-out;
+}
+
+.section_1 button:hover h1{
+    opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+.section_2 button {
+  
+    height: 19vw;
+}
+
+
+.section_2 {
+    width: 100vw;
+    height: 100%;
+    position: relative;
+   
+}
+
+.section_2 button{
+    color: white;
+    transition: 5s;
+  
+   
+}
+.section_2 h1{
+    font-family: chida;
+    font-size: 1.3em;
+}
+
+
+
+
+.section_2 button::before {
+
+    content: 'La robótica comenzó en un horno de orfebrería y en escritura cuneiforme';
+    position: absolute;
+    
+    transition: .07s;
+  /*background: orange;*/
+    transform: translateY(0) scale(1,0);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top:0% ;
+    opacity: 0;
+    font-family: chida;
+    font-size: 1.3em;
+    filter: blur(.3px) url("#smudged");
+
+    
+}
+
+.section_2 button:hover::before{
+    opacity: .8;
+    transform: translateY(0) scale(1,2);
+    transition: .07s ease-out;
+}
+
+.section_2 button:hover h1{
+    opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+.section_3 button {
+  
+    height: 29vw;
+}
+
+
+.section_3 {
+    width: 100vw;
+    height: 100%;
+    position: relative;
+   
+}
+
+.section_3 button{
+    color: white;
+    transition: 5s;
+  
+   
+}
+.section_3 h1{
+    font-family: chida;
+    font-size: 1.3em;
+}
+
+
+
+
+.section_3 button::before {
+
+    content: 'La ciencia y la tecnología debieran ser patrimonio de la humanidad pues con un uso planificado y democrático deberían producir satisfacción equidad y vida digna para todo';
+    position: absolute;
+    
+    transition: .07s;
+  /*background: orange;*/
+    transform: translateY(0) scale(1,0);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top:30% ;
+    opacity: 0;
+    font-family: chida;
+    font-size: 1.3em;
+    filter: blur(.3px) url("#smudged");
+
+    
+}
+
+.section_3 button:hover::before{
+    opacity: .8;
+    transform: translateY(0) scale(1,2);
+    transition: .07s ease-out;
+}
+
+.section_3 button:hover h1{
+    opacity: 0;
+}
+
+
+
+
+
+.link_modelado a{
+    font-family: chida;
+   font-size: 30px;
+    cursor: pointer;
+    color: #F7F1EB;
+
+}
+
+
+
+
+
+
+
+/*.section_1 button{
+    color: #767676;
+    transition: 1s;
+    text-shadow: 1px -1px 0  #767676,
+                 -1px 1px 0  #767676,
+                 -1px -1px 0  #767676,
+                 1px 1px 0  #767676;
+}
+
+.section_1 button:hover {
+
+    color:white;
+}*/
+
+
+@media only screen and (max-width: 1920px) {
+
+    .contenedor_texto p{
+        font-size: 10em;
+    }
+
+
+    .link_modelado a{
+        font-size: 50px;
+    }
+
+    .section_1 h1{
+        font-size: 4.3em;
+    }
+    
+    
+    .section_1 button::before {
+        font-size:4.3em;
+    
+    }
+    
+    
+    .section_2 h1{
+        font-size: 4.3em;
+    }
+    
+    
+    .section_2 button::before {
+        font-size: 4.3em;
+    
+    }
+    
+    
+    .section_3 h1{
+        font-size: 4.3em;
+    }
+    
+    
+    .section_3 button::before {
+        font-size: 4.3em;
+    
+    }
+
+}
+
+@media only screen and (max-width: 1400px) {
+
+    .contenedor_texto p{
+        font-size: 8em;
+    }
+
+
+
+.section_1 h1{
+            font-size: 4.3em;
+        }
+        
+        
+        .section_1 button::before {
+            font-size:4.3em;
+        
+        }
+        
+        
+        .section_2 h1{
+            font-size: 4.3em;
+        }
+        
+        
+        .section_2 button::before {
+            font-size: 4.3em;
+        
+        }
+        
+        
+        .section_3 h1{
+            font-size: 4.3em;
+        }
+        
+        
+        .section_3 button::before {
+            font-size: 4.3em;
+        
+        }
+
+
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+
+    .contenedor_texto p{
+        font-size: 8em;
+    }
+.section_1 h1{
+    font-size: 3.3em;
+}
+
+
+.section_1 button::before {
+    font-size: 3.3em;
+
+}
+
+
+.section_2 h1{
+    font-size: 3.3em;
+}
+
+
+.section_2 button::before {
+    font-size: 3.3em;
+
+}
+
+
+.section_3 h1{
+    font-size: 3.3em;
+}
+
+
+.section_3 button::before {
+    font-size: 3.3em;
+
+}
+
+}
+
+
+@media only screen and (max-width: 765px) {
+
+    .contenedor_texto p{
+        font-size: 3em;
+    }
+
+}
+
+
+@media only screen and (max-width: 500px) {
+
+    .contenedor_texto p{
+        font-size: 3em;
+    }
+
+}
+    
+
+    @media only screen and (max-width: 320px) {
+
+        .contenedor_texto p{
+            font-size: 3em;
+        }
+
+        .link_modelado a{
+            font-size: 15px;
+        }
+
+        .section_1 h1{
+            font-size: 1.3em;
+        }
+        
+        
+        .section_1 button::before {
+            font-size:1.3em;
+        
+        }
+        
+        
+        .section_2 h1{
+            font-size: 1.3em;
+        }
+        
+        
+        .section_2 button::before {
+            font-size: 1.3em;
+        
+        }
+        
+        
+        .section_3 h1{
+            font-size: 1.3em;
+        }
+        
+        
+        .section_3 button::before {
+            font-size: 1.3em;
+        
+        }
+
+
+
+
+    }
+
+
+    
